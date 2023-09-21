@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "bb5f707e-c44a-44af-a331-fc2318a13e5a",
+		"name": "boomi-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/v1/requests",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"referenceId\": \"refCollection1\",\r\n    \"records\": [\r\n        {\r\n            \"ShippyProOrderId__c\": \"54534244\",\r\n            \"PdpUrl__c\": \"https://www.tesfilelocatione.com/54534244\",\r\n            \"PdpDownloaded__c\": \"true\"\r\n        },\r\n        {\r\n            \"ShippyProOrderId__c\": \"5324524\",\r\n            \"PdpUrl__c\": \"https://www.tesfilelocatione.com/5324524\",\r\n            \"PdpDownloaded__c\": \"true\"\r\n        },\r\n        {\r\n            \"ShippyProOrderId__c\": \"535242\",\r\n            \"PdpUrl__c\": \"https://www.tesfilelocatione.com/535242\",\r\n            \"PdpDownloaded__c\": \"true\"\r\n        },\r\n        {\r\n            \"ShippyProOrderId__c\": \"732458235\",\r\n            \"PdpUrl__c\": \"https://www.tesfilelocatione.com/732458235\",\r\n            \"PdpDownloaded__c\": \"true\"\r\n        },\r\n         {\r\n            \"ShippyProOrderId__c\": \"973842\",\r\n            \"PdpUrl__c\": \"https://www.tesfilelocatione.com/535242\",\r\n            \"PdpDownloaded__c\": \"true\"\r\n        },\r\n        {\r\n            \"ShippyProOrderId__c\": \"8235\",\r\n            \"PdpUrl__c\": \"https://www.tesfilelocatione.com/732458235\",\r\n            \"PdpDownloaded__c\": \"true\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/requests",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"requests"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
